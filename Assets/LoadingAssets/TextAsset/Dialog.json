@@ -1,0 +1,342 @@
+[
+  {
+    "ID": 1,
+    "DialogGroupID": 1001,
+    "DialogID": 1,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "熟悉的电子提示音：",
+    "text_Dialog": "列车即将到站，请乘客做好上车准备",
+    "DialogLeftAvatarImgPath": "0",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 0,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      2
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 1,
+    "DialogCGID": "1",
+    "DialogCGChange": 1,
+    "DialogVideoPath": "音效\\音频001.MP3",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 2,
+    "DialogGroupID": 1001,
+    "DialogID": 2,
+    "comments": "序章站台-对话表演",
+    "DialogType": 1,
+    "text_DialogAvatarName": "伊格尔：",
+    "text_Dialog": "……",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 1,
+    "DialogChoiceNum": 3,
+    "text_DialogChoice": [
+      "我是谁？",
+      "这是什么地方？",
+      "地铁站台？"
+    ],
+    "NextDialogID": [
+      3,
+      3,
+      3
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "BGM\\BGM 001.mp3",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 3,
+    "DialogGroupID": 1001,
+    "DialogID": 3,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "0",
+    "text_Dialog": "只有电视机的噪点声滋滋作响",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 2,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      4
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 4,
+    "DialogGroupID": 1001,
+    "DialogID": 4,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "不知名的声音：",
+    "text_Dialog": "你来这里干嘛？",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 2,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      5
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 5,
+    "DialogGroupID": 1001,
+    "DialogID": 5,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "不知名的声音：",
+    "text_Dialog": "这不是你该来的地方。",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 2,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      6
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 6,
+    "DialogGroupID": 1001,
+    "DialogID": 6,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "伊格尔：",
+    "text_Dialog": "这是哪？",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 1,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      7
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 7,
+    "DialogGroupID": 1001,
+    "DialogID": 7,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "伊格尔：",
+    "text_Dialog": "让我回去！",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 1,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      8
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 8,
+    "DialogGroupID": 1001,
+    "DialogID": 8,
+    "comments": "序章站台-对话表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "0",
+    "text_Dialog": "回应她的只有电视的噪点声...",
+    "DialogLeftAvatarImgPath": "立绘\\主角立绘",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 2,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      0
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "FinishDialogGroup:1001"
+  },
+  {
+    "ID": 9,
+    "DialogGroupID": 1003,
+    "DialogID": 1,
+    "comments": "序章站台-列车进站表演",
+    "DialogType": 0,
+    "text_DialogAvatarName": "电子提示音：",
+    "text_Dialog": "列车已到站，请乘客快速上车，注意安全",
+    "DialogLeftAvatarImgPath": "0",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 0,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      0
+    ],
+    "DialogAnimation": [
+      "地铁进站动画"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 10,
+    "DialogGroupID": 1,
+    "DialogID": 1,
+    "comments": "序章站台-交互-电视",
+    "DialogType": 0,
+    "text_DialogAvatarName": "0",
+    "text_Dialog": "似乎是老式的显像管电视，不过为何会出现在地铁站台里？",
+    "DialogLeftAvatarImgPath": "0",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 0,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      0
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 11,
+    "DialogGroupID": 2,
+    "DialogID": 1,
+    "comments": "序章站台-交互-地铁门",
+    "DialogType": 0,
+    "text_DialogAvatarName": "0",
+    "text_Dialog": "开往wired？",
+    "DialogLeftAvatarImgPath": "0",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 0,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      0
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 12,
+    "DialogGroupID": 3,
+    "DialogID": 1,
+    "comments": "序章站台-交互-电梯",
+    "DialogType": 0,
+    "text_DialogAvatarName": "0",
+    "text_Dialog": "似乎被挡住了，无法通过。",
+    "DialogLeftAvatarImgPath": "0",
+    "DialogRightAvatarImgPath": "0",
+    "DialogAvatarHighlight": 0,
+    "DialogChoiceNum": 0,
+    "text_DialogChoice": [
+      "0"
+    ],
+    "NextDialogID": [
+      0
+    ],
+    "DialogAnimation": [
+      "0"
+    ],
+    "DialogCGType": 0,
+    "DialogCGID": "0",
+    "DialogCGChange": 0,
+    "DialogVideoPath": "0",
+    "BGMPath": "0",
+    "MissionFinishCondition": "FinishDialogGroup:3"
+  }
+]

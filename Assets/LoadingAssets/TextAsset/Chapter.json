@@ -1,0 +1,12 @@
+[
+  {
+    "ID": 1,
+    "comments": "第一章",
+    "text_ChapterName": "开始",
+    "ChapterStartMissionIDList": [
+      1001
+    ],
+    "ChapterImgPath": "0",
+    "ChapterSceneID": 101
+  }
+]

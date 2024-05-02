@@ -1,0 +1,18 @@
+[
+  {
+    "ID": 1,
+    "ActionName": "列车进站与门打开",
+    "FinishAction": [
+      "SendAciton:2"
+    ],
+    "MissionFinishCondition": "0"
+  },
+  {
+    "ID": 2,
+    "ActionName": "地铁门打开",
+    "FinishAction": [
+      "Speed:1"
+    ],
+    "MissionFinishCondition": "FinishAction:1"
+  }
+]

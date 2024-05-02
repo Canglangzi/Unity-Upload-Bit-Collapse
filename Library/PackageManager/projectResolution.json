@@ -1,0 +1,304 @@
+{
+  "context": {
+    "projectPath": "K:/UnityProject/LoadingDEMO/Packages",
+    "unityVersion": "6000.0.0f1"
+  },
+  "inputs": [
+    "K:\\UnityProject\\LoadingDEMO\\Packages\\manifest.json",
+    "K:\\UnityProject\\LoadingDEMO\\Packages\\packages-lock.json"
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "216517bd2e2a7fcaa844d439ca021688444112e8",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.cinemachine@2.10.0": {
+      "name": "com.unity.cinemachine",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.cinemachine",
+      "fingerprint": "6f06b54a94ce5abd9e780534a6b389ad75950ee0",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.10.0",
+      "source": "registry"
+    },
+    "com.unity.collab-proxy@2.3.1": {
+      "name": "com.unity.collab-proxy",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.collab-proxy",
+      "fingerprint": "9fe9d34b5e265703867fd4b6e7ef78001c1fa370",
+      "editorCompatibility": "2020.3.48f1",
+      "version": "2.3.1",
+      "source": "registry"
+    },
+    "com.unity.ide.visualstudio@2.0.22": {
+      "name": "com.unity.ide.visualstudio",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.ide.visualstudio",
+      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "editorCompatibility": "2019.4.25f1",
+      "version": "2.0.22",
+      "source": "registry"
+    },
+    "com.unity.ide.vscode@1.2.5": {
+      "name": "com.unity.ide.vscode",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.ide.vscode",
+      "fingerprint": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
+      "editorCompatibility": "2019.2.0a12",
+      "version": "1.2.5",
+      "source": "registry"
+    },
+    "com.unity.postprocessing@3.4.0": {
+      "name": "com.unity.postprocessing",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.postprocessing",
+      "fingerprint": "026b2a0827a438e3079df62a60ca03d54961393d",
+      "editorCompatibility": "2019.4.19f1",
+      "version": "3.4.0",
+      "source": "registry"
+    },
+    "com.unity.timeline@1.8.6": {
+      "name": "com.unity.timeline",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.timeline",
+      "fingerprint": "9ac0df085fa85d0d1f0b83dd933674497fd2774e",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "1.8.6",
+      "source": "registry"
+    },
+    "com.unity.visualscripting@1.9.4": {
+      "name": "com.unity.visualscripting",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.visualscripting",
+      "fingerprint": "0920df93f9574f857a55af27bd38fdd9230a3f51",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.4",
+      "source": "registry"
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.ai",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.cloth",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.terrain",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.umbra",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.video",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.vr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.wind",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.xr",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.ugui",
+      "fingerprint": "b21c90d8c981b5e30d4b75543a22d55ed87b121c",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin"
+    },
+    "com.unity.test-framework@1.4.3": {
+      "name": "com.unity.test-framework",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.test-framework",
+      "fingerprint": "95d6b5d0cb7ec79b743d67718a706e5f344fb7f4",
+      "editorCompatibility": "2019.4.0a10",
+      "version": "1.4.3",
+      "source": "registry"
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "resolvedPath": "K:\\UnityProject\\LoadingDEMO\\Library\\PackageCache\\com.unity.ext.nunit",
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    }
+  }
+}

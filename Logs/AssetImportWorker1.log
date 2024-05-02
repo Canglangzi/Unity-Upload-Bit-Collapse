@@ -1,0 +1,225 @@
+2024-05-02T10:11:35.970Z|0x504c|Using pre-set license
+2024-05-02T10:11:35.971Z|0x504c|Built from '6000.0/release' branch; Version is '6000.0.0f1 (4ff56b3ea44c) revision 5240171'; Using compiler version '193933522'; Build Type 'Release'
+2024-05-02T10:11:35.971Z|0x504c|OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 32581 MB
+2024-05-02T10:11:35.971Z|0x504c|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+2024-05-02T10:11:35.975Z|0x504c|
+COMMAND LINE ARGUMENTS:
+2024-05-02T10:11:35.975Z|0x504c|F:\Unity\Editor\Unity.exe
+2024-05-02T10:11:35.975Z|0x504c|-adb2
+2024-05-02T10:11:35.975Z|0x504c|-batchMode
+2024-05-02T10:11:35.975Z|0x504c|-noUpm
+2024-05-02T10:11:35.975Z|0x504c|-name
+2024-05-02T10:11:35.975Z|0x504c|AssetImportWorker1
+2024-05-02T10:11:35.975Z|0x504c|-projectPath
+2024-05-02T10:11:35.975Z|0x504c|K:/UnityProject/LoadingDEMO
+2024-05-02T10:11:35.975Z|0x504c|-logFile
+2024-05-02T10:11:35.975Z|0x504c|Logs/AssetImportWorker1.log
+2024-05-02T10:11:35.976Z|0x504c|-srvPort
+2024-05-02T10:11:35.976Z|0x504c|53515
+2024-05-02T10:11:35.976Z|0x504c|-job-worker-count
+2024-05-02T10:11:35.976Z|0x504c|7
+2024-05-02T10:11:35.976Z|0x504c|-background-job-worker-count
+2024-05-02T10:11:35.976Z|0x504c|8
+2024-05-02T10:11:35.976Z|0x504c|-asset-garbage-collectors
+2024-05-02T10:11:35.976Z|0x504c|1
+2024-05-02T10:11:35.976Z|0x504c|Successfully changed project path to: K:/UnityProject/LoadingDEMO
+2024-05-02T10:11:36.013Z|0x504c|K:/UnityProject/LoadingDEMO
+2024-05-02T10:11:36.014Z|0x504c|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-bucket-allocator-granularity=16"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-bucket-allocator-bucket-count=8"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-bucket-allocator-block-size=33554432"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-bucket-allocator-block-count=8"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-main-allocator-block-size=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-thread-allocator-block-size=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-cache-allocator-block-size=4194304"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-typetree-allocator-block-size=2097152"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-allocator-block-size=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-main=16777216"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-job-temp-allocator-block-size=2097152"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-background-worker=32768"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-job-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:11:36.014Z|0x504c|    "memorysetup-temp-allocator-size-gfx=262144"
+2024-05-02T10:11:36.020Z|0x504c|Player connection [20556]  Target information:
+
+2024-05-02T10:11:36.020Z|0x504c|Player connection [20556]  * "[IP] 192.168.8.9 [Port] 0 [Flags] 2 [Guid] 2475835103 [EditorId] 2475835103 [Version] 1048832 [Id] WindowsEditor(7,JERRY-SSP3JCTJ3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+2024-05-02T10:11:36.021Z|0x504c|Player connection [20556] Host joined multi-casting on [225.0.0.222:54997]...
+2024-05-02T10:11:36.022Z|0x504c|Player connection [20556] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2024-05-02T10:11:36.022Z|0x504c|JobSystem: Creating JobQueue using job-worker-count value 7
+2024-05-02T10:11:36.086Z|0x504c|Library Redirect Path: Library/
+2024-05-02T10:11:36.117Z|0x504c|[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:36.125Z|0x504c|Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+2024-05-02T10:11:36.125Z|0x504c|Preloading 0 native plugins for Editor in 0.00 ms.
+2024-05-02T10:11:36.126Z|0x504c|Initialize engine version: 6000.0.0f1 (4ff56b3ea44c)
+2024-05-02T10:11:36.126Z|0x504c|[Subsystems] Discovering subsystems at path F:/Unity/Editor/Data/Resources/UnitySubsystems
+2024-05-02T10:11:36.126Z|0x504c|[Subsystems] Discovering subsystems at path K:/UnityProject/LoadingDEMO/Assets
+2024-05-02T10:11:36.126Z|0x504c|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2024-05-02T10:11:36.286Z|0x504c|Direct3D:
+2024-05-02T10:11:36.286Z|0x504c|    Version:  Direct3D 11.0 [level 11.1]
+2024-05-02T10:11:36.286Z|0x504c|    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+2024-05-02T10:11:36.286Z|0x504c|    Vendor:   NVIDIA
+2024-05-02T10:11:36.286Z|0x504c|    VRAM:     7949 MB
+2024-05-02T10:11:36.286Z|0x504c|    Driver:   31.0.15.5212
+2024-05-02T10:11:36.373Z|0x504c|Initialize mono
+2024-05-02T10:11:36.373Z|0x504c|Mono path[0] = 'F:/Unity/Editor/Data/Managed'
+2024-05-02T10:11:36.373Z|0x504c|Mono path[1] = 'F:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2024-05-02T10:11:36.373Z|0x504c|Mono config path = 'F:/Unity/Editor/Data/MonoBleedingEdge/etc'
+2024-05-02T10:11:36.373Z|0x504c|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+2024-05-02T10:11:36.409Z|0x504c|Begin MonoManager ReloadAssembly
+2024-05-02T10:11:36.645Z|0x504c|Registering precompiled unity dll's ...
+2024-05-02T10:11:36.646Z|0x504c|Register platform support module: F:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2024-05-02T10:11:36.647Z|0x504c|Registered in 0.002257 seconds.
+2024-05-02T10:11:36.854Z|0x504c|- Loaded All Assemblies, in  0.445 seconds
+2024-05-02T10:11:36.910Z|0x504c|Native extension for WindowsStandalone target not found
+2024-05-02T10:11:37.429Z|0x504c|Mono: successfully reloaded assembly
+2024-05-02T10:11:37.447Z|0x504c|- Finished resetting the current domain, in  0.593 seconds
+2024-05-02T10:11:37.447Z|0x504c|Domain Reload Profiling: 1037ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (159ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (270ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+2024-05-02T10:11:37.624Z|0x504c|========================================================================
+2024-05-02T10:11:37.624Z|0x504c|Worker process is ready to serve import requests
+2024-05-02T10:11:37.625Z|0x504c|Import Worker Mode flag is 0x00
+2024-05-02T10:11:37.757Z|0x504c|Begin MonoManager ReloadAssembly
+2024-05-02T10:11:38.631Z|0x504c|- Loaded All Assemblies, in  0.874 seconds
+2024-05-02T10:11:38.841Z|0x504c|Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+2024-05-02T10:11:38.963Z|0x504c|Native extension for WindowsStandalone target not found
+2024-05-02T10:11:39.740Z|0x504c|Mono: successfully reloaded assembly
+2024-05-02T10:11:39.847Z|0x504c|- Finished resetting the current domain, in  1.004 seconds
+2024-05-02T10:11:39.847Z|0x504c|Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (408ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+2024-05-02T10:11:39.993Z|0x504c|Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+2024-05-02T10:11:40.032Z|0x504c|Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+2024-05-02T10:11:40.032Z|0x504c|Preloading 0 native plugins for Editor in 0.00 ms.
+2024-05-02T10:11:40.035Z|0x5038|Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+2024-05-02T10:11:40.040Z|0x504c|Unloading 3340 unused Assets / (2.9 MB). Loaded Objects now: 3966.
+Memory consumption went from 121.2 MB to 118.3 MB.
+2024-05-02T10:11:40.040Z|0x504c|Total: 5.383800 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.199800 ms MarkObjects: 3.753400 ms  DeleteObjects: 1.157600 ms)
+
+2024-05-02T10:11:40.041Z|0x504c|========================================================================
+Received Import Request.
+  Time since last request: 4585.124257 seconds.
+  path: Assets/Scripts/AssetsClz
+  artifactKey: Guid(3368f8c8289dc2e47bc65190cb3af9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:11:40.041Z|0x504c|Start importing Assets/Scripts/AssetsClz using Guid(3368f8c8289dc2e47bc65190cb3af9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:40.047Z|0x504c| -> (artifact id: 'bfd80e8f92fa01866bf587da7a828f20') in 0.0052126 seconds
+2024-05-02T10:11:40.047Z|0x504c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2024-05-02T10:11:40.047Z|0x504c|========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:11:40.048Z|0x504c|Start importing Assets/Scripts/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:40.049Z|0x504c| -> (artifact id: '8976b6d294d1b40aa6fc3f1040de6717') in 0.0005555 seconds
+2024-05-02T10:11:40.049Z|0x504c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2024-05-02T10:11:40.049Z|0x504c|========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/3rd
+  artifactKey: Guid(4bbd471cd7e6c5d46a9c12802569a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:11:40.050Z|0x504c|Start importing Assets/Scripts/3rd using Guid(4bbd471cd7e6c5d46a9c12802569a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:40.051Z|0x504c| -> (artifact id: '50d215dc1b21f7f0da3fbebb7de0287b') in 0.0005303 seconds
+2024-05-02T10:11:40.051Z|0x504c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2024-05-02T10:11:40.051Z|0x504c|========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b0833c4308f047648b79ac0b28421070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:11:40.052Z|0x504c|Start importing Assets/Scripts using Guid(b0833c4308f047648b79ac0b28421070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:40.052Z|0x504c| -> (artifact id: 'a86e8fd4f278a53545b631443d9d8b79') in 0.0005063 seconds
+2024-05-02T10:11:40.052Z|0x504c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2024-05-02T10:11:40.052Z|0x504c|========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/Scenes
+  artifactKey: Guid(9f5c820ec862bdd41846cb39f9424366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:11:40.053Z|0x504c|Start importing Assets/Scripts/Scenes using Guid(9f5c820ec862bdd41846cb39f9424366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+2024-05-02T10:11:40.053Z|0x504c| -> (artifact id: '88ebf87bcb999b3aecadbfd4637428df') in 0.0005328 seconds
+2024-05-02T10:11:40.053Z|0x504c|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2024-05-02T10:12:40.061Z|0x4e18|Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+2024-05-02T10:12:40.141Z|0x504c|AssetImportWorker is now disconnected from the server
+2024-05-02T10:12:40.141Z|0x504c|Process exiting
+2024-05-02T10:12:40.141Z|0x504c|Exiting without the bug reporter. Application will terminate with return code 0

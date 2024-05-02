@@ -1,0 +1,212 @@
+2024-05-02T10:09:16.876Z|0x5550|Using pre-set license
+2024-05-02T10:09:16.876Z|0x5550|Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+2024-05-02T10:09:16.876Z|0x5550|OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 32581 MB
+2024-05-02T10:09:16.876Z|0x5550|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+2024-05-02T10:09:16.899Z|0x5550|
+COMMAND LINE ARGUMENTS:
+2024-05-02T10:09:16.899Z|0x5550|K:\UnityEngine\2022.3.23f1\Editor\Unity.exe
+2024-05-02T10:09:16.899Z|0x5550|-adb2
+2024-05-02T10:09:16.899Z|0x5550|-batchMode
+2024-05-02T10:09:16.899Z|0x5550|-noUpm
+2024-05-02T10:09:16.899Z|0x5550|-name
+2024-05-02T10:09:16.899Z|0x5550|AssetImportWorker0
+2024-05-02T10:09:16.899Z|0x5550|-projectPath
+2024-05-02T10:09:16.899Z|0x5550|K:/UnityProject/LoadingDEMO
+2024-05-02T10:09:16.899Z|0x5550|-logFile
+2024-05-02T10:09:16.899Z|0x5550|Logs/AssetImportWorker0.log
+2024-05-02T10:09:16.899Z|0x5550|-srvPort
+2024-05-02T10:09:16.899Z|0x5550|53369
+2024-05-02T10:09:16.899Z|0x5550|Successfully changed project path to: K:/UnityProject/LoadingDEMO
+2024-05-02T10:09:16.933Z|0x5550|K:/UnityProject/LoadingDEMO
+2024-05-02T10:09:16.933Z|0x5550|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-bucket-allocator-granularity=16"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-bucket-allocator-bucket-count=8"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-bucket-allocator-block-size=33554432"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-bucket-allocator-block-count=8"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-main-allocator-block-size=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-thread-allocator-block-size=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-cache-allocator-block-size=4194304"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-typetree-allocator-block-size=2097152"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-allocator-block-size=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-main=16777216"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-job-temp-allocator-block-size=2097152"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-background-worker=32768"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-job-worker=262144"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2024-05-02T10:09:16.933Z|0x5550|    "memorysetup-temp-allocator-size-gfx=262144"
+2024-05-02T10:09:16.969Z|0x5550|Player connection [21840] Host "[IP] 192.168.8.9 [Port] 0 [Flags] 2 [Guid] 3106163461 [EditorId] 3106163461 [Version] 1048832 [Id] WindowsEditor(7,JERRY-SSP3JCTJ3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+2024-05-02T10:09:16.969Z|0x5550|Player connection [21840] Host "[IP] 192.168.8.9 [Port] 0 [Flags] 2 [Guid] 3106163461 [EditorId] 3106163461 [Version] 1048832 [Id] WindowsEditor(7,JERRY-SSP3JCTJ3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+2024-05-02T10:09:16.974Z|0x5550|[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+2024-05-02T10:09:17.109Z|0x5550|Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+2024-05-02T10:09:17.109Z|0x5550|Preloading 0 native plugins for Editor in 0.00 ms.
+2024-05-02T10:09:17.110Z|0x5550|Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+2024-05-02T10:09:17.110Z|0x5550|[Subsystems] Discovering subsystems at path K:/UnityEngine/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+2024-05-02T10:09:17.110Z|0x5550|[Subsystems] Discovering subsystems at path K:/UnityProject/LoadingDEMO/Assets
+2024-05-02T10:09:17.110Z|0x5550|GfxDevice: creating device client; threaded=0; jobified=0
+2024-05-02T10:09:17.287Z|0x5550|Direct3D:
+2024-05-02T10:09:17.287Z|0x5550|    Version:  Direct3D 11.0 [level 11.1]
+2024-05-02T10:09:17.287Z|0x5550|    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+2024-05-02T10:09:17.287Z|0x5550|    Vendor:   NVIDIA
+2024-05-02T10:09:17.287Z|0x5550|    VRAM:     7949 MB
+2024-05-02T10:09:17.287Z|0x5550|    Driver:   31.0.15.5212
+2024-05-02T10:09:17.333Z|0x5550|Initialize mono
+2024-05-02T10:09:17.333Z|0x5550|Mono path[0] = 'K:/UnityEngine/2022.3.23f1/Editor/Data/Managed'
+2024-05-02T10:09:17.333Z|0x5550|Mono path[1] = 'K:/UnityEngine/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2024-05-02T10:09:17.334Z|0x5550|Mono config path = 'K:/UnityEngine/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+2024-05-02T10:09:17.334Z|0x5550|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+2024-05-02T10:09:17.364Z|0x5550|Begin MonoManager ReloadAssembly
+2024-05-02T10:09:17.546Z|0x5550|Registering precompiled unity dll's ...
+2024-05-02T10:09:17.549Z|0x5550|Register platform support module: K:/UnityEngine/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2024-05-02T10:09:17.550Z|0x5550|Registered in 0.003875 seconds.
+2024-05-02T10:09:17.727Z|0x5550|- Loaded All Assemblies, in  0.364 seconds
+2024-05-02T10:09:17.791Z|0x5550|Native extension for WindowsStandalone target not found
+2024-05-02T10:09:18.030Z|0x5550|Mono: successfully reloaded assembly
+2024-05-02T10:09:18.046Z|0x5550|- Finished resetting the current domain, in  0.318 seconds
+2024-05-02T10:09:18.046Z|0x5550|Domain Reload Profiling: 681ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+2024-05-02T10:09:18.206Z|0x5550|========================================================================
+2024-05-02T10:09:18.206Z|0x5550|Worker process is ready to serve import requests
+2024-05-02T10:09:18.842Z|0x5550|Begin MonoManager ReloadAssembly
+2024-05-02T10:09:19.411Z|0x5550|- Loaded All Assemblies, in  0.568 seconds
+2024-05-02T10:09:19.413Z|0x5550|Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+2024-05-02T10:09:19.568Z|0x5550|Native extension for WindowsStandalone target not found
+2024-05-02T10:09:20.088Z|0x5550|Package Manager log level set to [2]
+2024-05-02T10:09:20.088Z|0x5550|[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+2024-05-02T10:09:20.088Z|0x5550|[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+2024-05-02T10:09:20.088Z|0x5550|[Package Manager] Cannot connect to Unity Package Manager local server
+2024-05-02T10:09:20.150Z|0x5550|Mono: successfully reloaded assembly
+2024-05-02T10:09:20.173Z|0x5550|- Finished resetting the current domain, in  0.758 seconds
+2024-05-02T10:09:20.174Z|0x5550|Domain Reload Profiling: 1326ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+2024-05-02T10:09:20.357Z|0x5550|Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+2024-05-02T10:09:20.417Z|0x5550|Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+2024-05-02T10:09:20.417Z|0x5550|Preloading 0 native plugins for Editor in 0.00 ms.
+2024-05-02T10:09:20.428Z|0x496c|Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
+2024-05-02T10:09:20.432Z|0x5550|Unloading 57 unused Assets / (1.8 MB). Loaded Objects now: 3734.
+Memory consumption went from 145.0 MB to 143.1 MB.
+2024-05-02T10:09:20.432Z|0x5550|Total: 3.357400 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.483000 ms  DeleteObjects: 0.353800 ms)
+
+2024-05-02T10:09:20.438Z|0x5550|AssetImportParameters requested are different than current active one (requested -> active):
+2024-05-02T10:09:20.438Z|0x5550|  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+2024-05-02T10:09:20.438Z|0x5550|  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+2024-05-02T10:09:20.439Z|0x5550|========================================================================
+Received Import Request.
+  Time since last request: 4445.522584 seconds.
+  path: Assets/Scenes/过场动画.unity
+  artifactKey: Guid(66aebbeae15df7e44b1ecf00df10791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:09:20.440Z|0x5550|Start importing Assets/Scenes/过场动画.unity using Guid(66aebbeae15df7e44b1ecf00df10791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 2024-05-02T10:09:20.442Z|0x5550| -> (artifact id: '8d58712fa07a578a389d45df28a29e10') in 0.002668 seconds
+2024-05-02T10:09:20.443Z|0x5550|Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+2024-05-02T10:09:20.443Z|0x5550|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(33fde0fe705996e43bdb916302364a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:09:20.444Z|0x5550|Start importing Assets/Scenes using Guid(33fde0fe705996e43bdb916302364a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 2024-05-02T10:09:20.444Z|0x5550| -> (artifact id: '696c936d910daec5656e1ed7cb1c6238') in 0.000403 seconds
+2024-05-02T10:09:20.445Z|0x5550|Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+2024-05-02T10:09:21.413Z|0x5550|========================================================================
+Received Import Request.
+  Time since last request: 0.968959 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(9456e3a8d20951841b6ada8dc6b88d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:09:21.414Z|0x5550|Start importing Assets/Scenes/MainMenu.unity using Guid(9456e3a8d20951841b6ada8dc6b88d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 2024-05-02T10:09:21.415Z|0x5550| -> (artifact id: 'a17dff0b9d656d139733eab8b7ed2766') in 0.000526 seconds
+2024-05-02T10:09:21.415Z|0x5550|Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+2024-05-02T10:09:28.102Z|0x5550|========================================================================
+Received Import Request.
+  Time since last request: 6.686368 seconds.
+  path: Assets/Scenes/场景加载.unity
+  artifactKey: Guid(ff05913914ab0834e8fcfa68c45af964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2024-05-02T10:09:28.103Z|0x5550|Start importing Assets/Scenes/场景加载.unity using Guid(ff05913914ab0834e8fcfa68c45af964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 2024-05-02T10:09:28.103Z|0x5550| -> (artifact id: '91862a5f4c3573db29736a00be373086') in 0.000433 seconds
+2024-05-02T10:09:28.103Z|0x5550|Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

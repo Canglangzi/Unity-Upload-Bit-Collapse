@@ -1,0 +1,70 @@
+[
+  {
+    "ID": 101,
+    "comments": "0",
+    "EffectType": "DialogGroup",
+    "EffectParam1": 1,
+    "EffectParam2": 0,
+    "EffectParam3": 0,
+    "EffectParamList": [
+      0
+    ],
+    "EffectParamString": "0",
+    "EffectParamStringList": [
+      "0"
+    ],
+    "EffectTimes": 0,
+    "EffectPriority": 1
+  },
+  {
+    "ID": 201,
+    "comments": "0",
+    "EffectType": "DialogGroup",
+    "EffectParam1": 2,
+    "EffectParam2": 0,
+    "EffectParam3": 0,
+    "EffectParamList": [
+      0
+    ],
+    "EffectParamString": "0",
+    "EffectParamStringList": [
+      "0"
+    ],
+    "EffectTimes": 0,
+    "EffectPriority": 1
+  },
+  {
+    "ID": 301,
+    "comments": "0",
+    "EffectType": "DialogGroup",
+    "EffectParam1": 3,
+    "EffectParam2": 0,
+    "EffectParam3": 0,
+    "EffectParamList": [
+      0
+    ],
+    "EffectParamString": "0",
+    "EffectParamStringList": [
+      "0"
+    ],
+    "EffectTimes": 1,
+    "EffectPriority": 1
+  },
+  {
+    "ID": 401,
+    "comments": "0",
+    "EffectType": "CurrentScene",
+    "EffectParam1": 102,
+    "EffectParam2": 0,
+    "EffectParam3": 0,
+    "EffectParamList": [
+      0
+    ],
+    "EffectParamString": "0",
+    "EffectParamStringList": [
+      "0"
+    ],
+    "EffectTimes": 1,
+    "EffectPriority": 1
+  }
+]

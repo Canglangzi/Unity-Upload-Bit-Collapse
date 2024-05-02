@@ -1,0 +1,91 @@
+[
+  {
+    "ID": 1001,
+    "comments": "序章站台-对话表演",
+    "MissionType": 1,
+    "MissionDialogGroupID": 1001,
+    "MissionStartCondition": [
+      "0"
+    ],
+    "MissionFinishCondition": [
+      "FinishDialogGroup:1001"
+    ],
+    "MissionStartEffectID": [
+      "CGShow:1",
+      "Speed:0"
+    ],
+    "MissionEndEffectID": [
+      "Speed:1"
+    ],
+    "NextMission": [
+      1002
+    ],
+    "Action": true
+  },
+  {
+    "ID": 1002,
+    "comments": "序章站台-自由探索",
+    "MissionType": 0,
+    "MissionDialogGroupID": 0,
+    "MissionStartCondition": [
+      "0"
+    ],
+    "MissionFinishCondition": [
+      "FinishDialogGroup:3"
+    ],
+    "MissionStartEffectID": [
+      "0"
+    ],
+    "MissionEndEffectID": [
+      "0"
+    ],
+    "NextMission": [
+      1003
+    ],
+    "Action": false
+  },
+  {
+    "ID": 1003,
+    "comments": "序章站台-列车进站表演",
+    "MissionType": 0,
+    "MissionDialogGroupID": 1003,
+    "MissionStartCondition": [
+      "0"
+    ],
+    "MissionFinishCondition": [
+      "FinishAction:1"
+    ],
+    "MissionStartEffectID": [
+      "Action:1"
+    ],
+    "MissionEndEffectID": [
+      "Speed:1"
+    ],
+    "NextMission": [
+      1004
+    ],
+    "Action": true
+  },
+  {
+    "ID": 1004,
+    "comments": "序章站台-地铁进站后探索",
+    "MissionType": 0,
+    "MissionDialogGroupID": 0,
+    "MissionStartCondition": [
+      "0"
+    ],
+    "MissionFinishCondition": [
+      "CurrentScene:102"
+    ],
+    "MissionStartEffectID": [
+      "0"
+    ],
+    "MissionEndEffectID": [
+      "0"
+    ],
+    "NextMission": [
+      0
+    ],
+    "Action": false
+  }
+]

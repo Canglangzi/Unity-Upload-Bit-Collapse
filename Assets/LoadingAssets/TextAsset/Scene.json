@@ -1,0 +1,16 @@
+[
+  {
+    "ID": 101,
+    "comments": "序章-地铁车站",
+    "SceneBackgroundImgPath": "Assets\\LocalRes\\美术素材\\场景\\地铁站台\\效果图.png",
+    "BirthPosX": 0.0,
+    "BirthPosY": 0.0
+  },
+  {
+    "ID": 102,
+    "comments": "序章-地铁车厢",
+    "SceneBackgroundImgPath": "Assets\\LocalRes\\美术素材\\场景\\地铁内部\\场景内容\\整列地铁.png",
+    "BirthPosX": 0.0,
+    "BirthPosY": 0.0
+  }
+]

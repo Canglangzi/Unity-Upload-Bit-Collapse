@@ -1,0 +1,36 @@
+[
+  {
+    "ID": 1,
+    "ConstValueName": "WalkSpeed",
+    "comments": "走路速度",
+    "ValueInt": 0,
+    "ValueIntList": [
+      0
+    ],
+    "ValueDouble": 1.0,
+    "ValueDoubleList": [
+      0.0
+    ],
+    "ValueString": "0",
+    "ValueStringList": [
+      "0"
+    ]
+  },
+  {
+    "ID": 2,
+    "ConstValueName": "RunSpeed",
+    "comments": "跑步阈值",
+    "ValueInt": 0,
+    "ValueIntList": [
+      0
+    ],
+    "ValueDouble": 2.0,
+    "ValueDoubleList": [
+      0.0
+    ],
+    "ValueString": "0",
+    "ValueStringList": [
+      "0"
+    ]
+  }
+]

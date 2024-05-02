@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1,
+    "comments": "序章站台-交互-电视",
+    "PropsScene": 101,
+    "PropsAppearCondition": [
+      "FinishMission:1001"
+    ],
+    "PropsDisappearCondition": [
+      "FinishMission:1002"
+    ],
+    "PropsInteractIconPath": "0",
+    "PropsInteractEffectList": [
+      101
+    ]
+  },
+  {
+    "ID": 2,
+    "comments": "序章站台-交互-地铁门",
+    "PropsScene": 101,
+    "PropsAppearCondition": [
+      "FinishMission:1001"
+    ],
+    "PropsDisappearCondition": [
+      "FinishMission:1002"
+    ],
+    "PropsInteractIconPath": "0",
+    "PropsInteractEffectList": [
+      201
+    ]
+  },
+  {
+    "ID": 3,
+    "comments": "序章站台-交互-电梯",
+    "PropsScene": 101,
+    "PropsAppearCondition": [
+      "FinishMission:1001"
+    ],
+    "PropsDisappearCondition": [
+      "FinishMission:1002"
+    ],
+    "PropsInteractIconPath": "0",
+    "PropsInteractEffectList": [
+      301
+    ]
+  },
+  {
+    "ID": 4,
+    "comments": "序章站台-交互-地铁门",
+    "PropsScene": 101,
+    "PropsAppearCondition": [
+      "FinishMission:1003"
+    ],
+    "PropsDisappearCondition": [
+      "FinishMission:1004"
+    ],
+    "PropsInteractIconPath": "0",
+    "PropsInteractEffectList": [
+      401
+    ]
+  }
+]
