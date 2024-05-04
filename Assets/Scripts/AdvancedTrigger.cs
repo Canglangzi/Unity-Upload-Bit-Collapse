@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace CLz
 {
@@ -14,13 +15,14 @@ namespace CLz
         public GameObject[] objectsToTrigger;
         [Tooltip("与物体数组对应的动画名称数组")]
         public string[] animationNames;
-      public bool triggerTriggerAnimationsByButtonPress;
+        [Tooltip("按下按钮触发动画")]
+        public KeyCode animationTriggerKey;
 
         [Header("Objects to Open")]
         [Tooltip("需要打开的游戏对象数组")]
-        
         public GameObject[] gameObjectsToOpen;
-        public bool  triggerOpenGameObjectsByButtonPress;
+        [Tooltip("按下按钮打开游戏对象")]
+        public KeyCode openObjectsTriggerKey;
 
         [Header("Interaction Panel")]
         [Tooltip("是否显示交互提示面板")]
@@ -30,18 +32,16 @@ namespace CLz
         [Header("Scene Transition")]
         [Tooltip("需要加载的场景名称")]
         public string[] sceneNames;
-          public bool triggerTriggersceneByButtonPress;
-
-        [Header("Trigger Tag")]
-        public string TriggerTag;
+        [Tooltip("按下按钮触发场景转换")]
+        public KeyCode sceneTransitionKey;
 
         [Header("Subtitle Settings")]
         [Tooltip("是否启用字幕")]
-        public bool enableSubtitles = true; // 是否启用字幕
+        public bool enableSubtitles = true;
         [Tooltip("是否按键触发字幕")]
-        public bool triggerByButtonPress = true; // 是否按键触发字幕
+        public bool triggerSubtitlesByButtonPress = true;
         public string[] subtitleLines;
-        public GameObject subtitlePanel; // 字幕面板
+        public GameObject subtitlePanel;
 
         [Header("Dialogue Settings")]
         [Tooltip("是否启用对话")]
@@ -54,26 +54,18 @@ namespace CLz
         [Tooltip("是否按下交互键触发对话，否则直接触发")]
         public bool triggerDialogueByButtonPress = true;
 
-        private InputManager _inputManager;
-        private SubtitleSystem subtitleSystem; // 引用字幕系统的实例
-
         private bool isInRange = false;
+        private bool hasTriggered = false;
 
-       public  bool enableAnimations;
-       public  bool enableScene;
-        public  bool enableGameObjects;
         private void Start()
         {
-            _inputManager = FindObjectOfType<InputManager>(); // 搜索场景中的 InputManager 组件
-            subtitleSystem = FindObjectOfType<SubtitleSystem>(); // 获取字幕系统的实例
-          dialogueSystem = FindObjectOfType<DialogueSystem>(); // 获取字幕系统的实例
-              subtitlePanel = GameObject.Find("SubtitlePanel");
-
+            dialogueSystem = FindObjectOfType<DialogueSystem>();
+            subtitlePanel = GameObject.Find("SubtitlePanel");
         }
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag(TriggerTag))
+            if (other.CompareTag("Player"))
             {
                 isInRange = true;
                 if (showInteractionPanelInRange && interactionPanelInRange != null)
@@ -83,7 +75,7 @@ namespace CLz
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.CompareTag(TriggerTag))
+            if (other.CompareTag("Player"))
             {
                 if (showInteractionPanelInRange && interactionPanelInRange != null)
                     interactionPanelInRange.SetActive(false);
@@ -93,61 +85,37 @@ namespace CLz
 
         private void Update()
         {
-            if (isInRange && interactable && Input.GetKeyDown(_inputManager.interactKey))
+            if (isInRange && interactable)
             {
-             
-               if (triggerTriggerAnimationsByButtonPress)
-                    TriggerAnimations();
+                if (triggerDialogueByButtonPress && Input.GetKeyDown(KeyCode.E))
+                    StartDialogue();
 
-                if (triggerTriggersceneByButtonPress)
-                    LoadNextScene();
+                if (!triggerDialogueByButtonPress && enableDialogue && !hasTriggered)
+                {
+                    StartDialogue();
+                    hasTriggered = true;
+                }
 
-                if (triggerOpenGameObjectsByButtonPress)
-                    OpenGameObjects();
-
-                if (enableSubtitles && triggerByButtonPress)
+                if (triggerSubtitlesByButtonPress && Input.GetKeyDown(KeyCode.F))
                     ShowSubtitle();
 
-                if (enableDialogue && triggerDialogueByButtonPress)
-                    StartDialogue();
+                if (!triggerSubtitlesByButtonPress && enableSubtitles && !hasTriggered)
+                {
+                    ShowSubtitle();
+                    hasTriggered = true;
+                }
+
+                if (Input.GetKeyDown(animationTriggerKey))
+                    TriggerAnimations();
+
+                if (Input.GetKeyDown(openObjectsTriggerKey))
+                    OpenGameObjects();
+
+                if (Input.GetKeyDown(sceneTransitionKey))
+                    LoadNextScene();
             }
-           if (isInRange && !hasTriggered)
-    {
-        if (enableSubtitles && !triggerByButtonPress)
-        {
-            ShowSubtitle();
-            hasTriggered = true;
-          
         }
 
-        if (enableDialogue && !triggerDialogueByButtonPress)
-        {
-            StartDialogue();
-            hasTriggered = true;
-          
-        }
-         if (enableAnimations && !triggerTriggerAnimationsByButtonPress)
-        {
-           TriggerAnimations();
-            hasTriggered = true;
-           
-        }
-      if ( enableScene && !triggerTriggersceneByButtonPress)
-        {
-            LoadNextScene();
-            hasTriggered = true;
-           
-        }
-         if ( enableGameObjects && !triggerOpenGameObjectsByButtonPress)
-        {
-            OpenGameObjects();
-            hasTriggered = true;
-            
-        }
-    }
-        }
-      
-private bool hasTriggered = false;
         private void StartDialogue()
         {
             dialogueSystem.StartDialogue(dialogueLayers, textSpeed);
@@ -156,7 +124,7 @@ private bool hasTriggered = false;
         private void ShowSubtitle()
         {
             subtitlePanel.SetActive(true);
-            subtitleSystem.ShowSubtitle(subtitleLines);
+            // 根据需求显示字幕
         }
 
         private void TriggerAnimations()
@@ -166,10 +134,9 @@ private bool hasTriggered = false;
                 GameObject obj = objectsToTrigger[i];
                 string animationName = animationNames[i];
 
-                // 检查物体是否存在以及是否有动画组件
                 if (obj != null && obj.TryGetComponent<Animator>(out Animator animator))
                 {
-                    animator.Play(animationName); // 播放动画
+                    animator.Play(animationName);
                 }
             }
         }
@@ -178,7 +145,7 @@ private bool hasTriggered = false;
         {
             if (sceneNames.Length > 0)
             {
-                SceneLoader.Instance.LoadScene(sceneNames[0]);
+                SceneManager.LoadScene(sceneNames[0]);
             }
         }
 
