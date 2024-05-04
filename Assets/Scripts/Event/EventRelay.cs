@@ -1,14 +1,14 @@
-using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-
-
+using UnityEngine;
 
 public class EventRelay<T>
 {
     private static EventRelay<T> instance;
-    private Dictionary<EventType, List<Action<T>>> eventListeners = new Dictionary<EventType, List<Action<T>>>();
+    private Dictionary<CLZ_EventType, List<Action<T>>> eventListeners = new Dictionary<CLZ_EventType, List<Action<T>>>();
+    private Dictionary<CLZ_EventType, Queue<Action<T>>> listenerPool = new Dictionary<CLZ_EventType, Queue<Action<T>>>();
+    private Dictionary<CLZ_EventType, int> maxPoolSize = new Dictionary<CLZ_EventType, int>(); // 每种事件类型的对象池最大容量
 
     private EventRelay() { }
 
@@ -24,38 +24,67 @@ public class EventRelay<T>
         }
     }
 
-    public void RegisterListener(EventType eventType, Action<T> listener)
+    public void RegisterListener(CLZ_EventType eventType, Action<T> listener)
     {
         if (!eventListeners.ContainsKey(eventType))
         {
             eventListeners[eventType] = new List<Action<T>>();
+            listenerPool[eventType] = new Queue<Action<T>>();
+            maxPoolSize[eventType] = 10; // 默认对象池最大容量为10
         }
-        eventListeners[eventType].Add(listener);
+
+        // Reuse listener from pool if available
+        if (listenerPool[eventType].Count > 0)
+        {
+            var pooledListener = listenerPool[eventType].Dequeue();
+            eventListeners[eventType].Add(pooledListener);
+        }
+        else
+        {
+            eventListeners[eventType].Add(listener);
+        }
     }
 
-    public void UnregisterListener(EventType eventType, Action<T> listener)
+    public void UnregisterListener(CLZ_EventType eventType, Action<T> listener)
     {
         if (eventListeners.ContainsKey(eventType))
         {
             eventListeners[eventType].Remove(listener);
-            if (eventListeners[eventType].Count == 0)
+
+            // Add listener back to pool
+            if (listenerPool[eventType].Count < maxPoolSize[eventType])
             {
-                eventListeners.Remove(eventType);
+                listenerPool[eventType].Enqueue(listener);
             }
         }
     }
 
-    public async Task InvokeEventAsync(EventType eventType, T param)
+    public async Task InvokeEventAsync(CLZ_EventType eventType, T param)
     {
         if (eventListeners.ContainsKey(eventType))
         {
-            await Task.Run(() =>
+            try
             {
-                foreach (var listener in eventListeners[eventType])
+                await Task.Run(() =>
                 {
-                    listener?.Invoke(param);
-                }
-            });
+                    Queue<Action<T>> listeners = new Queue<Action<T>>(eventListeners[eventType]);
+
+                    while (listeners.Count > 0)
+                    {
+                        var listener = listeners.Dequeue();
+                        listener?.Invoke(param);
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"An error occurred while invoking event {eventType}: {ex.Message}");
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"No listeners found for event {eventType}");
         }
     }
+
 }
