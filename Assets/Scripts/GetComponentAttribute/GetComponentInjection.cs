@@ -1,47 +1,35 @@
 ﻿using System.Reflection;
 using System;
+using System.Linq; // 添加使用 LINQ 的命名空间
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public static class GetComponentInjection
 {
+    public static event Action<Scene, LoadSceneMode> SceneLoaded;
+
     public static InjectEvent<GetComponentAttribute, FieldInfo, MonoBehaviour> SingleObjectClassifier;
     public static InjectEvent<GetComponentAttribute, FieldInfo, MonoHolder<MonoBehaviour, MonoBehaviour[]>> MultipleObjectClassifier;
 
-
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-    static void InjectScriptReferences()
+    static void Initialize()
     {
-        SingleObjectClassifier += (attr, field, obj) =>
-        {
-            switch (attr.ComponentAddress)
-            {
-                case GetComponentFrom.Self:
-                    field.SetValue(obj, obj.GetComponent(field.FieldType));
-                    break;
-                case GetComponentFrom.SceneObject:
-                    field.SetValue(obj, MonoBehaviour.FindObjectOfType(field.FieldType));
-                    break;
-            }
-        };
-        Inject();
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
-    static void InjectGameObjectReferences()
+    static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        MultipleObjectClassifier += (attr, field, monoHolder) =>
-        {
-            if (attr.ComponentAddress != GetComponentFrom.TargetGameObject)
-                return;
-            GameObject targetObj = GameObject.Find(attr.TargetName);
-            field.SetValue(monoHolder.t, targetObj.GetComponent(field.GetValue(monoHolder.t).GetType()));
-        };
-        Inject();
+        SceneLoaded?.Invoke(scene, mode);
     }
 
-
-    private static void Inject()
+    public static void Inject(Scene scene)
     {
-        MonoBehaviour[] objs = MonoBehaviour.FindObjectsOfType<MonoBehaviour>();
+        if (!scene.isLoaded)
+            return;
+
+        MonoBehaviour[] objs = scene.GetRootGameObjects()
+            .SelectMany(go => go.GetComponentsInChildren<MonoBehaviour>(true))
+            .ToArray();
         foreach (var obj in objs)
         {
             Type type = obj.GetType();
@@ -58,5 +46,4 @@ public static class GetComponentInjection
             }
         }
     }
-
 }
