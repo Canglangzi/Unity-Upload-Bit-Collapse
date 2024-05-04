@@ -1,23 +1,23 @@
 using UnityEngine;
-using System.Threading.Tasks;
+using System;
+
 public class SystemB : MonoBehaviour
 {
     private void OnEnable()
     {
         // 在启用时注册监听事件
-        EventRelay.Instance.RegisterListener("OnHealthChanged", OnHealthChanged);
+        EventRelay.Instance.RegisterListener("OnFire", OnFire);
     }
 
     private void OnDisable()
     {
         // 在禁用时取消注册监听事件
-        EventRelay.Instance.UnregisterListener("OnHealthChanged", OnHealthChanged);
+        EventRelay.Instance.UnregisterListener("OnFire", OnFire);
     }
 
-    private async void OnHealthChanged()
+    private void OnFire()
     {
         // 响应事件的处理逻辑
-        Debug.Log("Health has changed!");
-        await Task.Yield();
+        Debug.Log("Firing!");
     }
 }

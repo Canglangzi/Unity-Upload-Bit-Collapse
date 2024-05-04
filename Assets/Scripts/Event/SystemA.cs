@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class SystemA : MonoBehaviour
 {
-    private async void Start()
+    private void Update()
     {
-        // 示例：在启动时异步发送事件
-        await EventRelay.Instance.InvokeEventAsync("OnHealthChanged");
+        // 示例：按下空格键触发开火事件
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // 触发开火事件
+            EventRelay.Instance.InvokeEventAsync("OnFire");
+        }
     }
 }
-
