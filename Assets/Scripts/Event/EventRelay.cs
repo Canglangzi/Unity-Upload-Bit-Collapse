@@ -33,16 +33,7 @@ public class EventRelay<T>
             maxPoolSize[eventType] = 10; // 默认对象池最大容量为10
         }
 
-        // Reuse listener from pool if available
-        if (listenerPool[eventType].Count > 0)
-        {
-            var pooledListener = listenerPool[eventType].Dequeue();
-            eventListeners[eventType].Add(pooledListener);
-        }
-        else
-        {
-            eventListeners[eventType].Add(listener);
-        }
+        eventListeners[eventType].Add(listener);
     }
 
     public void UnregisterListener(CLZ_EventType eventType, Action<T> listener)
@@ -55,6 +46,13 @@ public class EventRelay<T>
             if (listenerPool[eventType].Count < maxPoolSize[eventType])
             {
                 listenerPool[eventType].Enqueue(listener);
+            }
+
+            if (eventListeners[eventType].Count == 0)
+            {
+                eventListeners.Remove(eventType);
+                listenerPool.Remove(eventType);
+                maxPoolSize.Remove(eventType);
             }
         }
     }
@@ -87,4 +85,27 @@ public class EventRelay<T>
         }
     }
 
+    public void ClearAllListeners()
+    {
+        eventListeners.Clear();
+        listenerPool.Clear();
+        maxPoolSize.Clear();
+    }
+
+    public int GetListenerCount(CLZ_EventType eventType)
+    {
+        return eventListeners.ContainsKey(eventType) ? eventListeners[eventType].Count : 0;
+    }
+
+    public void SetMaxPoolSize(CLZ_EventType eventType, int size)
+    {
+        if (maxPoolSize.ContainsKey(eventType))
+        {
+            maxPoolSize[eventType] = size;
+        }
+        else
+        {
+            Debug.LogWarning($"Event type {eventType} is not registered.");
+        }
+    }
 }
