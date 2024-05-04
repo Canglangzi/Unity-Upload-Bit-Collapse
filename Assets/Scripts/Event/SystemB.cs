@@ -6,18 +6,18 @@ public class SystemB : MonoBehaviour
     private void OnEnable()
     {
         // 在启用时注册监听事件
-        EventRelay.Instance.RegisterListener("OnFire", OnFire);
+        EventRelay<int>.Instance.RegisterListener(EventType.OnFire, OnFire);
     }
 
     private void OnDisable()
     {
         // 在禁用时取消注册监听事件
-        EventRelay.Instance.UnregisterListener("OnFire", OnFire);
+        EventRelay<int>.Instance.UnregisterListener(EventType.OnFire, OnFire);
     }
 
-    private void OnFire()
+    private void OnFire(int damage)
     {
-        // 响应事件的处理逻辑
-        Debug.Log("Firing!");
+        // 处理事件，并获取传递的参数
+        Debug.Log("Firing with damage: " + damage);
     }
 }
