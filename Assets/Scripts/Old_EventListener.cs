@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EventListener : MonoBehaviour
+public class Old_EventListener : MonoBehaviour
 {
     private void OnEnable()
     {

@@ -14,7 +14,7 @@ public struct EventData
 
 public class SystemA : MonoBehaviour
 {
-    private const int NumEventsPerSecond = 80; 
+    private const int NumEventsPerSecond = 1000; 
 
     private void Update()
     {

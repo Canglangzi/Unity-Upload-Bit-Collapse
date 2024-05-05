@@ -4,8 +4,8 @@ using UnityEngine;
 public enum MikuEventType
  {
      OnHealthChanged,
-    OnPlayerDeath,
-    // Add more event types here...
+     OnPlayerDeath,
+ 
  }
 
     public class MikuEventAggregator : MonoBehaviour
@@ -44,7 +44,7 @@ public enum MikuEventType
             if (_subscribers.ContainsKey(eventName))
             {
                 _subscribers[eventName].Remove(subscriber);
-                // 替换 Any 方法为检查列表的 Count 属性是否为 0
+               
                 if (_subscribers[eventName].Count == 0)
                 {
                     _subscribers.Remove(eventName);

@@ -8,7 +8,7 @@ public class EventRelay<T>
     private static EventRelay<T> instance;
     private Dictionary<CLZ_EventType, List<Action<T>>> eventListeners = new Dictionary<CLZ_EventType, List<Action<T>>>();
     private Dictionary<CLZ_EventType, Queue<Action<T>>> listenerPool = new Dictionary<CLZ_EventType, Queue<Action<T>>>();
-    private Dictionary<CLZ_EventType, int> maxPoolSize = new Dictionary<CLZ_EventType, int>(); // 每种事件类型的对象池最大容量
+    private Dictionary<CLZ_EventType, int> maxPoolSize = new Dictionary<CLZ_EventType, int>(); 
 
     private EventRelay() { }
 
@@ -30,7 +30,7 @@ public class EventRelay<T>
         {
             eventListeners[eventType] = new List<Action<T>>();
             listenerPool[eventType] = new Queue<Action<T>>();
-            maxPoolSize[eventType] = 10; // 默认对象池最大容量为10
+            maxPoolSize[eventType] = 10; 
         }
 
         eventListeners[eventType].Add(listener);
