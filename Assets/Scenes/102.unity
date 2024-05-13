@@ -2605,16 +2605,15 @@ MonoBehaviour:
   - {fileID: 426162728}
   animationNames:
   - "\u7535\u89C6\u6389\u843DAnimation"
-  triggerTriggerAnimationsByButtonPress: 1
+  animationTriggerKey: 0
   gameObjectsToOpen: []
-  triggerOpenGameObjectsByButtonPress: 0
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 965570986}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 1
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 0
@@ -2626,9 +2625,6 @@ MonoBehaviour:
     options: []
   textSpeed: 0.05
   triggerDialogueByButtonPress: 0
-  enableAnimations: 1
-  enableScene: 0
-  enableGameObjects: 0
 --- !u!114 &426162736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,16 +2642,15 @@ MonoBehaviour:
   - {fileID: 1903551632}
   animationNames:
   - "\u7834\u574F\u52A8\u753B"
-  triggerTriggerAnimationsByButtonPress: 0
+  animationTriggerKey: 0
   gameObjectsToOpen: []
-  triggerOpenGameObjectsByButtonPress: 0
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 965570986}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: "\u602A\u7269"
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 1
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 0
@@ -2667,9 +2662,6 @@ MonoBehaviour:
     options: []
   textSpeed: 0.05
   triggerDialogueByButtonPress: 0
-  enableAnimations: 1
-  enableScene: 0
-  enableGameObjects: 0
 --- !u!114 &426162738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,9 +3654,25 @@ MonoBehaviour:
   m_ExcludedPropertiesInInspector:
   - m_Script
   m_LockStageInInspector: 
+  m_ValidatingStreamVersion: 20170927
+  m_OnValidateCalled: 1
   m_StreamingVersion: 20170927
   m_Priority: 10
+  m_ActivationId: 1
   m_StandbyUpdate: 2
+  <mExtensions>k__BackingField: []
+  <PreviousStateIsValid>k__BackingField: 1
+  m_WasStarted: 1
+  mSlaveStatusUpdated: 1
+  m_parentVcam: {fileID: 0}
+  m_QueuePriority: 10
+  m_blendStartPosition: 0
+  m_CachedFollowTarget: {fileID: 1635368018}
+  m_CachedFollowTargetVcam: {fileID: 0}
+  m_CachedLookAtTarget: {fileID: 1635368018}
+  m_CachedLookAtTargetVcam: {fileID: 0}
+  <FollowTargetChanged>k__BackingField: 0
+  <LookAtTargetChanged>k__BackingField: 0
   m_LookAt: {fileID: 1635368018}
   m_Follow: {fileID: 1635368018}
   m_Lens:
@@ -3678,14 +3686,22 @@ MonoBehaviour:
     GateFit: 2
     FocusDistance: 10
     m_SensorSize: {x: 1, y: 1}
+    m_OrthoFromCamera: 0
+    m_PhysicalFromCamera: 0
   m_Transitions:
     m_BlendHint: 1
     m_InheritPosition: 0
     m_OnCameraLive:
       m_PersistentCalls:
         m_Calls: []
+      m_CallsDirty: 1
   m_LegacyBlendHint: 0
+  m_ComponentPipeline:
+  - {fileID: 1884306235}
+  - {fileID: 1884306236}
   m_ComponentOwner: {fileID: 1884306234}
+  mCachedLookAtTarget: {fileID: 1635368018}
+  mCachedLookAtTargetVcam: {fileID: 0}
 --- !u!1 &641548875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,7 +4811,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeTrigger: {fileID: 0}
   volumeLayer:
-    serializedVersion: 2
     m_Bits: 4294967295
   stopNaNPropagation: 0
   finalBlitToCameraTarget: 0
@@ -4805,6 +4820,9 @@ MonoBehaviour:
     sharpness: 0.25
     stationaryBlending: 0.95
     motionBlending: 0.85
+    <jitter>k__BackingField: {x: 0, y: 0}
+    m_ResetHistory: 1
+    <sampleIndex>k__BackingField: 0
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
@@ -4813,21 +4831,18 @@ MonoBehaviour:
   fog:
     enabled: 1
     excludeSkybox: 1
+  dithering:
+    m_NoiseTextureIndex: 26
   debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
+    lightMeter: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, showCurves: 1}
+    histogram: {<output>k__BackingField: {fileID: 0}, requested: 0, width: 512, height: 256, channel: 3}
+    waveform: {<output>k__BackingField: {fileID: 0}, requested: 0, exposure: 0.12, height: 256}
+    vectorscope: {<output>k__BackingField: {fileID: 0}, requested: 0, size: 256, exposure: 0.12}
+    frameWidth: 964
+    frameHeight: 542
+    <debugOverlayTarget>k__BackingField: {fileID: 0}
+    <debugOverlayActive>k__BackingField: 0
+    <debugOverlay>k__BackingField: 0
     overlaySettings:
       linearDepth: 0
       motionColorIntensity: 4
@@ -4841,6 +4856,12 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+  <cameraDepthFlags>k__BackingField: 1
+  <haveBundlesBeenInited>k__BackingField: 0
+  m_Camera: {fileID: 963194233}
+  m_SettingsUpdateNeeded: 1
+  m_IsRenderingInSceneView: 0
+  m_NaNKilled: 0
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4863,18 +4884,24 @@ MonoBehaviour:
     m_Style: 1
     m_Time: 2
     m_CustomCurve:
-      serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
   m_CustomBlends: {fileID: 11400000, guid: abe92df411d2cb04db9f10b4b3b667ad, type: 2}
+  m_OutputCamera: {fileID: 963194233}
+  m_TargetOverride: {fileID: 0}
   m_CameraCutEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
+  m_LastFrameUpdated: 88
+  mNextFrameId: 1
+  mActiveCameraPreviousFrameGameObject: {fileID: 617070447}
 --- !u!4 &963194231
 Transform:
   m_ObjectHideFlags: 0
@@ -5830,17 +5857,16 @@ MonoBehaviour:
   - {fileID: 1903551632}
   animationNames:
   - Walk
-  triggerTriggerAnimationsByButtonPress: 0
+  animationTriggerKey: 0
   gameObjectsToOpen:
   - {fileID: 1903551632}
-  triggerOpenGameObjectsByButtonPress: 1
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 0}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 0
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 0
@@ -5848,9 +5874,6 @@ MonoBehaviour:
   dialogueLayers: []
   textSpeed: 0.15
   triggerDialogueByButtonPress: 0
-  enableAnimations: 1
-  enableScene: 0
-  enableGameObjects: 1
 --- !u!65 &1255316208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6214,17 +6237,16 @@ MonoBehaviour:
   objectsToTrigger:
   - {fileID: 426162728}
   animationNames: []
-  triggerTriggerAnimationsByButtonPress: 1
+  animationTriggerKey: 0
   gameObjectsToOpen:
   - {fileID: 1123993081}
-  triggerOpenGameObjectsByButtonPress: 1
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 965570986}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 0
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 1
@@ -6236,9 +6258,6 @@ MonoBehaviour:
     options: []
   textSpeed: 0.15
   triggerDialogueByButtonPress: 0
-  enableAnimations: 0
-  enableScene: 0
-  enableGameObjects: 1
 --- !u!114 &1289536680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6255,17 +6274,16 @@ MonoBehaviour:
   objectsToTrigger:
   - {fileID: 426162728}
   animationNames: []
-  triggerTriggerAnimationsByButtonPress: 1
+  animationTriggerKey: 0
   gameObjectsToOpen:
   - {fileID: 1123993081}
-  triggerOpenGameObjectsByButtonPress: 0
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 965570986}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 0
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 0
@@ -6273,9 +6291,6 @@ MonoBehaviour:
   dialogueLayers: []
   textSpeed: 0.15
   triggerDialogueByButtonPress: 0
-  enableAnimations: 0
-  enableScene: 0
-  enableGameObjects: 1
 --- !u!1 &1296472335
 GameObject:
   m_ObjectHideFlags: 0
@@ -8053,16 +8068,15 @@ MonoBehaviour:
   interactable: 1
   objectsToTrigger: []
   animationNames: []
-  triggerTriggerAnimationsByButtonPress: 0
+  animationTriggerKey: 0
   gameObjectsToOpen: []
-  triggerOpenGameObjectsByButtonPress: 0
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 1
   interactionPanelInRange: {fileID: 0}
   sceneNames: []
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 0
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 1
@@ -8077,9 +8091,6 @@ MonoBehaviour:
     options: []
   textSpeed: 0.15
   triggerDialogueByButtonPress: 0
-  enableAnimations: 0
-  enableScene: 0
-  enableGameObjects: 0
 --- !u!65 &1684801993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8598,6 +8609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 617070449}
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 0, z: -10}
   m_XDamping: 0
@@ -8608,6 +8620,12 @@ MonoBehaviour:
   m_YawDamping: 0
   m_RollDamping: 0
   m_AngularDamping: 0
+  <HideOffsetInInspector>k__BackingField: 0
+  m_PreviousTargetPosition: {x: -1.589, y: 0.36900002, z: 7.105}
+  m_PreviousReferenceOrientation: {x: 0, y: 0, z: 0, w: 1}
+  m_targetOrientationOnAssign: {x: -0, y: -0, z: -0, w: 1}
+  m_PreviousOffset: {x: 0, y: 0, z: -10}
+  m_previousTarget: {fileID: 1635368018}
 --- !u!114 &1884306236
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8620,6 +8638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_vcamOwner: {fileID: 617070449}
   m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
@@ -8635,6 +8654,11 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+  <TrackedPoint>k__BackingField: {x: -1.589, y: 0.36900002, z: 7.105}
+  m_CameraPosPrevFrame: {x: -1.589, y: 0.36900002, z: -2.895}
+  m_LookAtPrevFrame: {x: -1.589, y: 0.36900002, z: 7.105}
+  m_ScreenOffsetPrevFrame: {x: 0, y: 0}
+  m_CameraOrientationPrevFrame: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &1884306237
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8775,17 +8799,16 @@ MonoBehaviour:
   interactable: 1
   objectsToTrigger: []
   animationNames: []
-  triggerTriggerAnimationsByButtonPress: 0
+  animationTriggerKey: 0
   gameObjectsToOpen: []
-  triggerOpenGameObjectsByButtonPress: 0
+  openObjectsTriggerKey: 0
   showInteractionPanelInRange: 0
   interactionPanelInRange: {fileID: 0}
   sceneNames:
   - 102
-  triggerTriggersceneByButtonPress: 0
-  TriggerTag: Player
+  sceneTransitionKey: 0
   enableSubtitles: 0
-  triggerByButtonPress: 0
+  triggerSubtitlesByButtonPress: 1
   subtitleLines: []
   subtitlePanel: {fileID: 965570986}
   enableDialogue: 0
@@ -8793,9 +8816,6 @@ MonoBehaviour:
   dialogueLayers: []
   textSpeed: 0.15
   triggerDialogueByButtonPress: 0
-  enableAnimations: 0
-  enableScene: 1
-  enableGameObjects: 0
 --- !u!54 &1903551643
 Rigidbody:
   m_ObjectHideFlags: 0
